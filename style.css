@@ -1,0 +1,205 @@
+
+
+body {
+   background-color: #EAEAEA;
+    font-family:  "IBM Plex Mono";
+}
+
+#left {
+    width: 44%;
+    float: left;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    height: 100%;
+}
+
+#new {
+    margin: 40px;
+}
+
+#right {
+    width:44%;
+    float: right;
+    margin-right: 20px;
+    height: 100vh;
+}
+
+#line {
+    background-color: black;
+    width: 1.5px;
+    height: 100%;
+    position: fixed;
+    margin-top: -8px;
+    margin-left: 49%;
+}
+
+#margins {
+    margin: 35px;
+}
+
+p {
+    font-family:  "IBM Plex Mono";
+}
+
+.intro {
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+.menulinx {
+   text-transform: uppercase;
+    font-size: 12pt;
+    float:right;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hoverable{
+    border: 1.5px;
+    border-style: solid;
+    border-color: #EAEAEA;
+}
+
+.hoverable:hover {
+    border: 1.5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+ul {
+    font-family: "IBM Plex Mono";
+    list-style-type: none;
+    position: absolute;
+    bottom: 10px;
+}
+
+.list{
+    margin-left: -40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: auto;
+}
+
+img {
+    width: 30vw;
+    border: 1.5px solid black;
+}
+
+#la1 {
+    width: 20%;
+    top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+
+#instrumentlogo {
+    width: 8%;
+    top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#bookimg {
+    width: 13%;
+    top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#hairimg {
+    width: 14%;
+    top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#blobimg {
+    width: 30%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#okimg {
+    width: 30%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#fineimg {
+    width: 30%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+#afterhoursimg {
+    width: 30%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+.phonedimensions {
+    border-radius: 10px;
+    width: 13%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
+.frame {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-height: 660px) {
+  ul {
+    position: relative;
+  }
+}
