@@ -18,6 +18,15 @@ $(document).ready(function(){
     }
     );
     
+     $("#ministryimg").hide();
+    $("#ministry").hover(function(){
+        $("#ministryimg").show();
+    },
+    function(){
+        $("#ministryimg").hide();
+    }
+    );
+    
     $("#bookimg").hide();
     $("#book").hover(function(){
         $("#bookimg").show();
@@ -123,6 +132,8 @@ $(document).ready(function(){
         $("#ucla4allimg").hide();
     }
     );
+    
+    
     
     
 });

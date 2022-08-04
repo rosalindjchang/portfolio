@@ -244,6 +244,18 @@ img {
 
 }
 
+#ministryimg {
+    border: none;
+    width: 40%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
 @media only screen and (max-height: 560px) {
   ul {
     position: static;
