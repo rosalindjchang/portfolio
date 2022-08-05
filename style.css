@@ -282,7 +282,11 @@ img {
 }
 
 #section2 {
-    background-color: black;
+    background-color: dimgray;
+}
+
+#section3 {
+    background-color: gray;
 }
 
 .playgroundtype {

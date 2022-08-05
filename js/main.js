@@ -133,6 +133,17 @@ $(document).ready(function(){
     }
     );
     
+        $("#pixelilloimg").hide();
+    $("#pixelillo").hover(function(){
+        $(".pixelillocategory").addClass("blackborder");
+        $("#pixelilloimg").show();
+    },
+    function(){
+        $(".pixelillocategory").removeClass("blackborder");
+        $("#pixelilloimg").hide();
+    }
+    );
+    
        $("#ioimg").hide();
     $("#io").hover(function(){
         $(".iocategory").addClass("blackborder");
