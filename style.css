@@ -6,12 +6,21 @@ body {
     font-size: 10pt;
 }
 
+.nav {
+    width: 44%;
+    float: left;
+    margin-left: 18.5px;
+    margin-top: 20.5px;
+    height: 100%;
+    position: fixed;
+}
+
 #left {
     width: 44%;
     float: left;
     margin-left:20px;
     margin-right: 20px;
-    margin-top: -10px;
+    margin-top: -6px;
     height: 100%;
 }
 
@@ -35,10 +44,6 @@ body {
     margin-left: 49%;
 }
 
-#margins {
-    margin: 35px;
-}
-
 p {
     font-family:  "IBM Plex Mono";
 }
@@ -60,9 +65,7 @@ a {
 }
 
 .hoverable{
-    border: 1.5px;
-    border-style: solid;
-    border-color: #EAEAEA;
+    border: 1.5px solid rgba(255,0,0, 0);
 }
 
 .hoverable:hover {
@@ -244,6 +247,18 @@ img {
 
 }
 
+#ioimg {
+    border-radius: 10px;
+    width: 30%;
+     top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+}
+
 #ministryimg {
     border: none;
     width: 30%;
@@ -254,6 +269,26 @@ img {
     left: 47vw;
     right: 0;
     margin: auto;
+}
+
+.section {
+    margin-left: 20px;
+    width: calc(100vw - 85px);
+    height: calc(100vh - 90px);
+    object-fit: cover;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+}
+
+#section2 {
+    background-color: black;
+}
+
+.playgroundtype {
+    position:fixed;
+    top: 40vh;
+    left: 45vw;
 }
 
 @media only screen and (max-height: 560px) {
