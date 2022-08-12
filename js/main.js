@@ -45,6 +45,15 @@ $(document).ready(function(){
     }
     );
     
+      $("#rosimg").hide();
+    $("#ros").hover(function(){
+        $("#rosimg").show();
+    },
+    function(){
+        $("#rosimg").hide();
+    }
+    );
+    
      $("#blobimg").hide();
     $("#blob").hover(function(){
         $(".blobcategory").addClass("blackborder");

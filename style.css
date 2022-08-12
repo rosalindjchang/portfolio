@@ -6,10 +6,14 @@ body {
     font-size: 10pt;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .nav {
     width: 44%;
     float: left;
-    margin-left: 18.5px;
+    margin-left: 20px;
     margin-top: 20.5px;
     height: 100%;
     position: fixed;
@@ -127,6 +131,19 @@ img {
     left: 47vw;
     right: 0;
     margin: auto;
+}
+
+#rosimg {
+    width: 20%;
+    top: 45%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47vw;
+    right: 0;
+    margin: auto;
+    mix-blend-mode: color-burn;
+    border-radius: 20px;
 }
 
 #hairimg {
@@ -279,6 +296,10 @@ img {
     border: 1.5px solid black;
     position: sticky;
     top: 80px;
+}
+
+#section2 {
+    background-color: #EAEAEA;
 }
 
 .playgroundtype {

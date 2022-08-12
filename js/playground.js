@@ -4,7 +4,7 @@
 
 let sketch = function(p) {
     p.setup = function(){
-      p.createCanvas(200, 200);
+      p.createCanvas(300, 300);
       p.background(0);
     }
   };
