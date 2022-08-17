@@ -3,7 +3,7 @@
 body {
    background-color: #EAEAEA;
     font-family:  "IBM Plex Mono";
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 .noscroll {
@@ -13,8 +13,8 @@ body {
 .nav {
     width: 44%;
     float: left;
-    margin-left: 20px;
-    margin-top: 20.5px;
+    margin-left: 50px;
+    margin-top: 34px;
     height: 100%;
     position: fixed;
 }
@@ -22,9 +22,9 @@ body {
 #left {
     width: 44%;
     float: left;
-    margin-left:20px;
-    margin-right: 20px;
-    margin-top: -6px;
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
     height: 100%;
 }
 
@@ -33,9 +33,10 @@ body {
 }
 
 #right {
-    width:44%;
+    width:30%;
     float: right;
-    margin-right: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
     height: 100vh;
 }
 
@@ -45,7 +46,7 @@ body {
     height: 100%;
     position: fixed;
     margin-top: -8px;
-    margin-left: 49%;
+    margin-left: 50%;
 }
 
 p {
@@ -54,11 +55,11 @@ p {
 
 .intro {
     text-transform: uppercase;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .menulinx {
-   text-transform: uppercase;
+    text-transform: uppercase;
     float:right;
     text-align: right;
 }
@@ -75,7 +76,8 @@ a {
 .hoverable:hover {
     border: 1.5px;
     border-style: solid;
-    border-color: black;
+    border-color: #3D4DE3;
+    color: #3D4DE3;
 }
 
 
@@ -83,12 +85,11 @@ ul {
     font-family: "IBM Plex Mono";
     list-style-type: none;
     position: absolute;
-    bottom: 10px;
+    bottom: 45px;
 }
 
 .list{
     margin-left: -40px;
-    margin-bottom: 10px;
     margin-top: 10px;
     width: auto;
 }
@@ -98,147 +99,69 @@ img {
     border: 1.5px solid black;
 }
 
-#la1 {
-    width: 30%;
+.imgpos {
     top: 45%;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 47vw;
+    left: 53vw;
     right: 0;
     margin: auto;
-    border: none;
+}
+
+#la1 {
+    width: 35%;
 }
 
 
 #instrumentlogo {
     width: 8%;
-    top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #bookimg {
     width: 13%;
-    top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #rosimg {
-    width: 20%;
-    top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
-    mix-blend-mode: color-burn;
-    border-radius: 20px;
+    width: 15%;
 }
 
 #hairimg {
     width: 14%;
-    top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #blobimg {
     width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #okimg {
     width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #fineimg {
     width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #afterhoursimg {
     width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #lacfimg {
-    width: 27%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
+    width: 25%;
 }
 
 #ucla4allimg {
-    width: 27%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
+    width: 25%;
 }
 
 .phonedimensions {
     border-radius: 10px;
     width: 13%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 .frame {
     display: inline-block;
     height: 100%;
-    text-align: center;
 }
 
 .projindex {
@@ -253,11 +176,12 @@ img {
 }
 
 .blackborder {
-    border-color: black;
+    border-color: #3D4DE3;
+    color: #3D4DE3;
 }
 
 .projcategory {
-    left: 25%;
+    left: 30%;
     float: right;
     width: 40%;
     margin-right: 0px;
@@ -267,30 +191,15 @@ img {
 #ioimg {
     border-radius: 10px;
     width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
 }
 
 #ministryimg {
-    border: none;
-    width: 30%;
-     top: 45%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 47vw;
-    right: 0;
-    margin: auto;
+    width: 35%;
 }
 
 .section {
-    margin-left: 20px;
-    width: calc(100vw - 60px);
+    margin-left: 50px;
+    width: calc(100vw - 120px);
     height: calc(100vh - 80px);
     object-fit: cover;
     border: 1.5px solid black;
@@ -308,22 +217,16 @@ img {
     left: 45vw;
 }
 
-canvas {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
 
-@media only screen and (max-height: 600px) {
-  ul {
+@media only screen and (max-height: 615px) {
+    ul {
     position: static;
-  }
-    
+    }
     .projcategory {
         position:static;
+    }
+    .noscroll {
+    overflow: scroll;
     }
     
 }
