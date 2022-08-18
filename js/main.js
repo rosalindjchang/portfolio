@@ -36,12 +36,12 @@ $(document).ready(function(){
     }
     );
     
-     $("#hairimg").hide();
-    $("#pixie").hover(function(){
-        $("#hairimg").show();
+     $("#sandalimg").hide();
+    $("#sandals").hover(function(){
+        $("#sandalimg").show();
     },
     function(){
-        $("#hairimg").hide();
+        $("#sandalimg").hide();
     }
     );
     
