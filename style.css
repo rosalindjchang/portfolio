@@ -28,16 +28,34 @@ body {
     height: 100%;
 }
 
+#leftp {
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
 #new {
     margin: 40px;
 }
 
 #right {
-    width:30%;
+    width:40vw;
     float: right;
     margin-top: 25px;
     margin-right: 50px;
     height: 100vh;
+}
+
+#rightp {
+    width:60vw;
+    float: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    height: 100vh;
+    overflow: scroll;
 }
 
 #line {
@@ -47,6 +65,15 @@ body {
     position: fixed;
     margin-top: -8px;
     margin-left: 50%;
+}
+
+#linep {
+    background-color: black;
+    width: 1.5px;
+    height: 100%;
+    position: fixed;
+    margin-top: -8px;
+    margin-left: 32%;
 }
 
 p {
@@ -78,6 +105,12 @@ a {
     border-style: solid;
     border-color: #3D4DE3;
     color: #3D4DE3;
+}
+
+header {
+    color: #3D4DE3;
+    text-transform: uppercase;
+    font-size: 15pt;
 }
 
 
@@ -216,6 +249,21 @@ img {
     top: 40vh;
     left: 45vw;
 }
+
+.portfolioimg {
+    width:61vw;
+    margin-bottom: 50px;
+}
+
+.portfolioimgs {
+    width:34vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+}
+
 
 
 @media only screen and (max-height: 615px) {
