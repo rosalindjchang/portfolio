@@ -4,10 +4,19 @@ body {
    background-color: #EAEAEA;
     font-family:  "IBM Plex Mono";
     font-size: 9pt;
+    margin: 0;
 }
 
 .noscroll {
     overflow: hidden;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #3D4DE3;
 }
 
 .nav {
@@ -53,7 +62,7 @@ body {
     width:60vw;
     float: right;
     padding-top: 25px;
-    padding-right: 50px;
+    padding-right: 3.5vw;
     height: 100vh;
     overflow: scroll;
 }
@@ -63,7 +72,6 @@ body {
     width: 1.5px;
     height: 100%;
     position: fixed;
-    margin-top: -8px;
     margin-left: 50%;
 }
 
@@ -98,6 +106,10 @@ a {
 
 .hoverable{
     border: 1.5px solid rgba(255,0,0, 0);
+}
+
+.noborder {
+    border: none;
 }
 
 .hoverable:hover {
@@ -251,7 +263,7 @@ img {
 }
 
 .portfolioimg {
-    width:61vw;
+    width:59vw;
     margin-bottom: 50px;
 }
 
@@ -262,6 +274,19 @@ img {
     margin-right: auto;
     margin-bottom: 50px;
   
+}
+
+.portfolioimgxs {
+    width:18vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+}
+
+.rounded{
+    border-radius: 10px;
 }
 
 
