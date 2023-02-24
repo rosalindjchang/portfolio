@@ -8,6 +8,11 @@ body {
     margin: 0;
 }
 
+.creds {
+    font-size: 7pt;
+    color: gray;
+}
+
 .noscroll {
     overflow: hidden;
 }
@@ -395,6 +400,9 @@ img {
     margin-left: 5vw;
     }
   
+    .creds {
+        visibility: hidden;
+    }
   
 }
 
