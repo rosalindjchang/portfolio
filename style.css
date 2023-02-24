@@ -386,13 +386,24 @@ img {
     width: 88vw;
     overflow: hidden;  
     height: 20vw;
+    float: left;
+
     }
     
     .menulinx {
     float:left;
     text-align: left;
     text-decoration: underline;
+    margin-left: 5vw;
     }
   
 }
+
+@media only screen and (max-width: 500px) {
+   .projcategory {
+    visibility: hidden;
+
+}
+}
+
 
