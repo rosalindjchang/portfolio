@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
     $(document).ready(function() {
-  document.getElementsByTagName("html")[0].style.visibility = "visible";
-});
+        document.getElementsByTagName("html")[0].style.visibility = "visible";
+    });
     $(".laimg").hide();
     $("#la").hover(function(){
         $(".laimg").show();
