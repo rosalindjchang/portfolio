@@ -267,6 +267,15 @@ img {
     margin-bottom: 50px;
 }
 
+.portfolioimgm {
+    width:40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+}
+
 .portfolioimgs {
     width:34vw;
     display: block;
