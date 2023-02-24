@@ -314,7 +314,8 @@ img {
     
 }
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 950px) {
     ul {
     position: static;
     }
@@ -324,10 +325,6 @@ img {
     .noscroll {
     overflow: scroll;
     }
-    
-}
-
-@media only screen and (max-width: 950px) {
 
     #leftp { 
       width: 88vw; 
@@ -377,6 +374,7 @@ img {
     #left {
       width: 88vw; 
       margin-left: 5vw;  
+        height: 650px;
     }
     #line {
         visibility: hidden;
@@ -397,13 +395,16 @@ img {
     margin-left: 5vw;
     }
   
+  
 }
 
 @media only screen and (max-width: 500px) {
    .projcategory {
     visibility: hidden;
-
-}
+       }
+    .projindex {
+          width: 80vw;
+       }
 }
 
 
