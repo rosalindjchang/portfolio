@@ -273,6 +273,11 @@ img {
     margin-bottom: 50px;
 }
 
+video
+{
+    border: 1.5px solid black;    
+}
+
 .portfolioimgm {
     width:40vw;
     display: block;
