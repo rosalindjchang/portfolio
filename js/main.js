@@ -167,6 +167,17 @@ $(document).ready(function(){
     }
     );
     
+    $("#searchimg").hide();
+    $("#search").hover(function(){
+        $(".searchcategory").addClass("blackborder");
+        $("#searchimg").show();
+    },
+    function(){
+        $(".searchcategory").removeClass("blackborder");
+        $("#searchimg").hide();
+    }
+    );
+    
     
     
     
