@@ -178,6 +178,16 @@ $(document).ready(function(){
     }
     );
     
+     $("#keystoneimg").hide();
+    $("#keystone").hover(function(){
+        $(".keystonecategory").addClass("blackborder");
+        $("#keystoneimg").show();
+    },
+    function(){
+        $(".keystonecategory").removeClass("blackborder");
+        $("#keystoneimg").hide();
+    }
+    );
     
     
     
