@@ -167,14 +167,14 @@ $(document).ready(function(){
     }
     );
     
-    $("#searchimg").hide();
-    $("#search").hover(function(){
-        $(".searchcategory").addClass("blackborder");
-        $("#searchimg").show();
+    $("#asanaimg").hide();
+    $("#asana").hover(function(){
+        $(".asanacategory").addClass("blackborder");
+        $("#asanaimg").show();
     },
     function(){
-        $(".searchcategory").removeClass("blackborder");
-        $("#searchimg").hide();
+        $(".asanacategory").removeClass("blackborder");
+        $("#asanaimg").hide();
     }
     );
     
