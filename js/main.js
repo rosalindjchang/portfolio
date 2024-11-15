@@ -167,6 +167,17 @@ $(document).ready(function(){
     }
     );
     
+      $("#iowebimg").hide();
+    $("#ioweb").hover(function(){
+        $(".iowebcategory").addClass("blackborder");
+        $("#iowebimg").show();
+    },
+    function(){
+        $(".iowebcategory").removeClass("blackborder");
+        $("#iowebimg").hide();
+    }
+    );
+    
     $("#asanaimg").hide();
     $("#asana").hover(function(){
         $(".asanacategory").addClass("blackborder");
