@@ -12,12 +12,12 @@ $(document).ready(function(){
     }
     );
     
-    $("#instrumentlogo").hide();
-    $("#instrument").hover(function(){
-        $("#instrumentlogo").show();
+    $("#companylogo").hide();
+    $("#company").hover(function(){
+        $("#companylogo").show();
     },
     function(){
-        $("#instrumentlogo").hide();
+        $("#companylogo").hide();
     }
     );
     
